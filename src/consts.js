@@ -17,6 +17,12 @@ const DEFAULT_VARIANTS = {
     appendOutputContents: true,
     showRunButtonInPreview: true,
   },
+  swift: {
+    template: 'echo \'{{src}}\' >| \'/Users/nutanniraula/temp.swift\' && swift \'/Users/nutanniraula/temp.swift\'',
+    showModal: true,
+    appendOutputContents: true,
+    showRunButtonInPreview: true,
+  },
 };
 
 module.exports = {
